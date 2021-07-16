@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'loginapp';
+  title = 'bai5';
+  // tslint:disable-next-line:typedef
+  onRateChange(value: any) {
+    console.log(value);
+  }
 }
